@@ -1,0 +1,20 @@
+{
+  "eventName": ["MODIFY"],
+  "dynamodb": {
+    "NewImage": {
+      "status": {
+        "S": ["shipped"]
+      },
+      "customerEmail": {
+        "S": [{
+          "anything-but": "*test.com*"
+        }]
+      }
+    },
+    "OldImage": {
+      "status": {
+        "S": ["pending"]
+      }
+    }
+  }
+}
