@@ -1,0 +1,15 @@
+{
+  "eventName": ["INSERT"],
+  "dynamodb": {
+    "NewImage": {
+      "status": {
+        "S": ["pending", "shipped"]
+      },
+      "customerEmail": {
+        "S": [{
+          "anything-but": "test.com"
+        }]
+      }
+    }
+  }
+}
