@@ -39,13 +39,17 @@ The Lambda function calculates **line**, **word**, and **character** counts, gen
 ## AWS Resources
 
 ### 1. S3 Bucket
-- **Name:** `file-processing-bucket-<your-name>`  
-- **Trigger:** `ObjectCreated` event for `.txt` uploads  
+- **Name:** `file-processing-bucket-<anupama>`  
+- **Trigger:** `ObjectCreated` event for `.txt` uploads
+- <img width="1347" height="604" alt="image" src="https://github.com/user-attachments/assets/f9962cfd-3102-4bf1-8bc6-1b0e10587dbd" />
+ 
 
 ### 2. DynamoDB Table
 - **Table Name:** `FileProcessingResults`  
 - **Partition Key:** `fileName` (String)  
-- **Attributes:** `lineCount`, `wordCount`, `charCount`, `preview`, `processedDate`  
+- **Attributes:** `lineCount`, `wordCount`, `charCount`, `preview`, `processedDate`
+  <img width="1341" height="639" alt="image" src="https://github.com/user-attachments/assets/a2f82f1f-9a63-4b5f-b5f6-10edc79626e8" />
+
 
 ### 3. IAM Role for Lambda
 Required permissions:
