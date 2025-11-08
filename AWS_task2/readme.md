@@ -15,26 +15,23 @@ Design and implement a real-time data processing pipeline for an e-commerce appl
 4. Error Handling: Configure dead-letter queues for failed events and implement retry logic for transient failures
 
 ### Technical Requirements:
-Use DynamoDB Streams with NEW_AND_OLD_IMAGES
-Implement EventBridge Pipes with exact field matching and pattern matching
-Create appropriate IAM roles for cross-service permissions
-Handle batch processing and partial failures
+Use DynamoDB Streams with NEW_AND_OLD_IMAGES<br />
+Implement EventBridge Pipes with exact field matching and pattern matching<br />
+Create appropriate IAM roles for cross-service permissions<br />
+Handle batch processing and partial failures<br />
 
 ### Evaluation Focus:
-Proper configuration of DynamoDB streams
-Effective use of EventBridge Pipes filtering capabilities
-Efficient event pattern design
-Error handling and reliability patterns
-Cost optimization through appropriate filtering
+Proper configuration of DynamoDB streams<br />
+Effective use of EventBridge Pipes filtering capabilities<br />
+Efficient event pattern design<br />
+Error handling and reliability patterns<br />
+Cost optimization through appropriate filtering<br />
 
 ### Deliverables:
-CloudFormation/Terraform templates
-Filter patterns and pipe configurations
-Lambda function code for processing
-Architecture diagram showing the complete pipeline
-
-How would you design this solution to ensure only relevant order events are processed while maintaining scalability and cost-efficiency?
-
+CloudFormation/Terraform templates<br />
+Filter patterns and pipe configurations<br />
+Lambda function code for processing<br />
+Architecture diagram showing the complete pipeline<br />
 
 
 ### Logs
